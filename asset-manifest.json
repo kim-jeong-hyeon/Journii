@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Journii/static/css/main.6391306c.css",
+    "main.css": "/Journii/static/css/main.b5331738.css",
     "main.js": "/Journii/static/js/main.fd7dd832.js",
     "static/media/jidol2.png": "/Journii/static/media/jidol2.63a424490abfaefb84a0.png",
     "static/media/ba1.png": "/Journii/static/media/ba1.50187e73f8c4cec4141d.png",
@@ -13,7 +13,7 @@
     "index.html": "/Journii/index.html"
   },
   "entrypoints": [
-    "static/css/main.6391306c.css",
+    "static/css/main.b5331738.css",
     "static/js/main.fd7dd832.js"
   ]
 }
