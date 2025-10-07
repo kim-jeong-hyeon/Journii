@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Journii/static/css/main.3de92549.css",
-    "main.js": "/Journii/static/js/main.cf88bfe9.js",
+    "main.css": "/Journii/static/css/main.3a4654b1.css",
+    "main.js": "/Journii/static/js/main.5e487cdb.js",
     "static/media/jidol2.png": "/Journii/static/media/jidol2.63a424490abfaefb84a0.png",
     "static/media/ba1.png": "/Journii/static/media/ba1.50187e73f8c4cec4141d.png",
     "static/media/madang.png": "/Journii/static/media/madang.3eac917c8492e777def5.png",
@@ -13,7 +13,7 @@
     "index.html": "/Journii/index.html"
   },
   "entrypoints": [
-    "static/css/main.3de92549.css",
-    "static/js/main.cf88bfe9.js"
+    "static/css/main.3a4654b1.css",
+    "static/js/main.5e487cdb.js"
   ]
 }
