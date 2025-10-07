@@ -1,0 +1,510 @@
+section {
+    flex: 1 0 auto;
+    position: relative;
+    width: 100%;
+    -webkit-transition: all .5s ease-in;
+    -o-transition: all .5s ease-in;
+    transition: all .5s ease-in;
+}
+
+.who_am_I {
+    font-family: Cinzel;
+}
+
+.has-first-color {
+    color: var(--primary-color);
+}
+
+.btn-portfolio {
+    background: var(--primary-color);
+    border-radius: 0;
+}
+
+.btn-portfolio a {
+    color: #000;
+    text-decoration: none;
+}
+
+.btn-about a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.intro_sec {
+    height: calc(100vh - 60px);
+    min-height: 700px;
+    height: 100vh;
+    margin-top: -60px;
+}
+
+@media (max-width:991.98px) {
+    .intro_sec {
+        display: block;
+        height: auto!important;
+    }
+}
+
+.intro_sec .text,
+.intro_sec .h_bg-image {
+    width: 50%;
+}
+
+@media (max-width:991.98px) {
+    .intro_sec .text,
+    .intro_sec .h_bg-image {
+        width: 100%;
+    }
+}
+
+.intro_sec .intro {
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+@media (max-width:991.98px) {
+    .intro_sec .intro {
+        max-width: 700px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.intro_sec .intro .feature .wrap-icon {
+    background: 0 0!important;
+    width: auto;
+    height: auto;
+    margin-bottom: 0;
+}
+
+.intro_sec .intro .feature .wrap-icon svg {
+    color: #5cccc9;
+}
+
+.intro_sec .text h1 {
+    font-size: 30px;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+
+.intro_sec .text h3 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.intro_sec .h_bg-image {
+    background-size: 80%;
+    background-position: center;
+    min-height: 700px;
+    position: relative;
+    background-repeat: no-repeat;         /* 이미지 반복 방지 */
+    background-color: var(--primary-color);             /* 빈 공간을 흰색으로 채움 (원하는 색으로 변경 가능) */
+    filter: saturate(0.5);
+    border-radius: 50% 10%;
+}
+
+.ac_btn {
+    padding: 4px 19px;
+    color: var(--secondary-color);
+    position: relative;
+    border: var(--secondary-color) 2px solid;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+    cursor: pointer;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.ac_btn a {
+    text-decoration: none;
+}
+
+.ac_btn:hover {
+    box-shadow: 8px 8px 0px var(--text-color), -8px -8px 0px var(--text-color);
+}
+
+.ac_btn:hover .one {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.ac_btn:hover .two {
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.ac_btn:hover .three {
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.ac_btn:hover .four {
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.ac_btn .ring {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: transparent;
+    top: 0;
+    left: 0;
+    transform: translate3d(0px, 90px, 0px);
+}
+
+.ac_btn .one {
+    background-color: #000;
+    transition: all 0.3s cubic-bezier(0.55, 0, 0.1, 1);
+    z-index: -3;
+    z-index: -4;
+}
+
+.ac_btn .two {
+    background-color: var(--primary-color);
+    transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+    z-index: -3;
+}
+
+.ac_btn .three {
+    background-color: var(--secondary-color);
+    z-index: -2;
+    transition: all 0.7s cubic-bezier(0.55, 0, 0.1, 1);
+    z-index: -3;
+}
+
+#button_p {
+    background: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+#button_h:hover {
+    color: var(--primary-color)
+}
+
+.intro_sec .h_bg-image .block {
+    bottom: 50vh;
+    max-width: 220px;
+    padding: 30px;
+    left: -110px;
+    position: absolute;
+    width: 250px;
+    height: 220px;
+    border-radius: 100%;
+    /* mix-blend-mode: multiply; */
+    background-color: #2f514e;
+    z-index: 9999999999;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (max-width:991.98px) {
+    .intro_sec .h_bg-image {
+        height: 600px;
+        min-height: 75vh;
+        margin-bottom: 30px;
+    }
+    .intro_sec .h_bg-image .block {
+        top: unset;
+        bottom: 0;
+        width: 100%;
+        margin: 0;
+        left: 50%;
+        transform: translate(-50%, 50%);
+    }
+}
+
+.intro_sec .h_bg-image .block .wrap-icon {
+    font-size: 40px;
+    color: var(--text-color);
+    margin-bottom: 10px;
+    display: block;
+}
+
+.intro_sec .h_bg-image .block h3 {
+    font-size: 14px;
+    color: var(--text-color);
+    letter-spacing: .1rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.intro_sec .h_bg-image .block p {
+    font-size: 14px;
+    line-height: 1.3;
+    color: var(--text-color)
+}
+
+.intro_sec .h_bg-image {
+    filter: saturate(0.5);
+}
+.portfolio-section {
+  max-width: 70vw;
+  min-width: 320px;
+  margin: 40px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.portfolio-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.portfolio-card {
+  background: #fff;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  position: relative;
+}
+
+.portfolio-card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 16px 40px rgba(0,0,0,0.18);
+}
+
+.portfolio-image {
+  width: 100%;
+  aspect-ratio: 16/9;
+  background-size: cover;
+  background-position: center;
+  transition: filter 0.3s;
+  min-height: 180px;
+}
+
+.portfolio-card:hover .portfolio-image {
+  filter: brightness(0.85) blur(1px);
+}
+
+.portfolio-content {
+  padding: 24px 18px 18px 18px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.portfolio-content h3 {
+  margin: 0 0 10px 0;
+  font-size: 1.3rem;
+  color: var(--primary-color);
+  font-weight: bold;
+  text-align: center;
+}
+
+.portfolio-content p {
+  font-size: 1rem;
+  color: var(--text-color);
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.read-more-btn {
+  background: var(--primary-color);
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 24px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.read-more-btn:hover {
+  background: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+/* Modal Styles */
+.portfolio-modal-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.55);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio-modal {
+  background: #fff;
+  border-radius: 18px;
+  max-width: 95vw;
+  width: 480px;
+  max-height: 90vh;
+  overflow-y: auto;
+  padding: 32px 24px 24px 24px;
+  position: relative;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+  animation: modalFadeIn 0.3s;
+}
+
+@keyframes modalFadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.modal-close-btn {
+  position: absolute;
+  top: 12px;
+  right: 18px;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: var(--primary-color);
+  cursor: pointer;
+  z-index: 2;
+}
+
+.modal-image {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 18px;
+  object-fit: cover;
+}
+
+.modal-link {
+  display: inline-block;
+  margin-top: 12px;
+  color: var(--primary-color);
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.modal-youtube {
+  margin-top: 18px;
+  width: 100%;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.portfolio-row-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;      /* 글씨가 항상 이미지의 가운데에 오도록 */
+  gap: 32px;
+  margin-bottom: 24px;
+  background: transparent;
+  min-height: 320px;        /* 카드 높이 고정 또는 min-height로 중앙정렬 효과 */
+}
+
+.portfolio-row-image {
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.10);
+  transition: box-shadow 0.3s;
+  /* min/max-height, aspect-ratio 등은 JSX에서 동적으로 지정 */
+}
+
+.portfolio-row-content {
+  flex: 1 1 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  /* 세로 가운데 정렬 */
+  height: 100%;
+  background: transparent;
+  color: #fff;
+}
+
+.portfolio-row-content h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.portfolio-date {
+  font-size: 1rem;
+  color: #ffb300;
+  margin-bottom: 8px;
+}
+
+.portfolio-row-content p {
+  font-size: 1.05rem;
+  margin-bottom: 12px;
+}
+
+.read-more-btn {
+  background: #ffb300;
+  color: #000;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 24px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 8px;
+  align-self: flex-start;
+}
+
+.read-more-btn:hover {
+  background: #fff;
+  color: #ffb300;
+}
+
+/* ...existing code... */
+.img-variant-0 {
+  min-height: 320px;
+  max-height: 380px;
+  aspect-ratio: 16/9;
+  align-self: flex-start;
+  border-radius: 24px 8px 24px 8px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.10);
+}
+.img-variant-1 {
+  min-height: 220px;
+  max-height: 260px;
+  aspect-ratio: 4/3;
+  align-self: center;
+  border-radius: 8px 24px 8px 24px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.13);
+}
+.img-variant-2 {
+  min-height: 400px;
+  max-height: 440px;
+  aspect-ratio: 3/4;
+  align-self: flex-end;
+  border-radius: 32px 12px 32px 12px;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.09);
+}
+
+/* 카드별로 row 방향도 바꿔주면 더 다채로움 */
+.card-variant-1 {
+  flex-direction: row-reverse;
+}
+.card-variant-2 {
+  align-items: flex-end;
+}
+
+/* 반응형 */
+@media (max-width: 900px) {
+  .portfolio-row-card,
+  .card-variant-1,
+  .card-variant-2 {
+    flex-direction: column !important;
+    align-items: stretch !important;
+  }
+  .img-variant-0,
+  .img-variant-1,
+  .img-variant-2 {
+    min-height: 160px;
+    max-height: 220px;
+    aspect-ratio: 16/9;
+    border-radius: 16px;
+  }
+}
